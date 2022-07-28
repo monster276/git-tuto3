@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container{
+    display: flex;
+    max-width: 90%;
+    margin:  0 auto;
+}
+.container .sidebar{
+    font-weight:200px;
+    padding: 100px 10px 0 30px;
+    color: white;
+    flex: 1;
+    border: 1px solid red;
+    height: 100vh;
+    background-color: #f44336;
+    position: fixed;
+    z-index: 1;
+}
+.container .cont{
+    flex: 4;
+    
+}
+.container .sidebar ul{
+    margin-top: 100px;
+    list-style: none;
+}
+.container .sidebar ul li{
+    
+    font-size: large;
+    font-weight: bolder;
+    padding: 10px 10px 10px 10px;
+}
+.container .sidebar ul li:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+.container .cont h1{
+    color:black;
+    font-size: 65px;
+    font-weight: bolder;
+    margin: 50px 0 0 10px;
+    padding: 50px 0 5px 290px;
+}
+.container .cont h2{
+    color: red;
+    font-weight: bolder;
+    padding: 10px 0 0 20px;
+    font-size: 50px;
+    margin: 10px 0 0 275px;
+}
+.container .cont .line{
+    height: 5px;
+    width: 60px;
+    border-radius: 3px;
+    background-color: red;
+    margin:0 0 10px 300px;
+}
+
+.container .cont .image .product{
+    margin-left: 300px;  
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.container .cont .image .product img{  
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.container .cont p{
+    margin-left: 300px;
+    font-weight: bold;
+}
+.container .cont .DSlist{
+    margin-left: 250px;
+    padding-left: 50px;
+}
+.container .cont .DSlist .listDS{
+    display:  grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    
+}
+.container .cont .DSlist .listDS .designer{
+    background-color: lightgrey;
+}
+.container .cont .DSlist .listDS .designer img{
+    width: 100%;
+}
+.container .cont .DSlist .listDS .designer p{
+    margin-left: 20px;
+}
+.container .cont .DSlist .listDS .designer h3{
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.container .cont .package{
+    margin-left: 300px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.container .cont .package .basic h3{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 35px;
+    background-color: #616161;
+    padding: 15px 15px;
+    color: white;
+}
+.container .cont .package .basic ul{
+    list-style: none;
+    background-color: #f1f1f1;
+}
+.container .cont .package .basic ul li{
+    text-align: center;
+    font-size: 17px;
+    border-top: 1px solid #afa6a6;
+    padding: 15px 15px ;
+    font-weight: bolder;
+}
+.container .cont .package .basic .cost{
+    background-color: #f1f1f1;
+}
+.container .cont .package .basic .cost h3{
+    background-color: #f1f1f1;
+    text-align: center;
+    color: black;
+    text-align: center;
+    border-top: 1px solid #afa6a6;
+}
+.container .cont .package .basic .cost p{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 0px;
+}
+.container .cont .package .basic .signup{
+    background-color: #f1f1f1;
+    padding: 10px 10px 10px 300px;
+    border-top: 1px solid #afa6a6;
+}
+.container .cont .package .basic .signup button{
+    background-color: white;
+    font-size: 25px;
+    outline: none;
+    font-weight: bolder;
+    color: black;
+    border: none;
+    padding: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* Pro */
+.container .cont .package .pro h3{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 35px;
+    background-color:#f44336;
+    padding: 15px 15px;
+    color: white;
+}
+.container .cont .package .pro ul{
+    list-style: none;
+    background-color: #f1f1f1;
+}
+.container .cont .package .pro ul li{
+    text-align: center;
+    font-size: 17px;
+    border-top: 1px solid #afa6a6;
+    padding: 15px 15px ;
+    font-weight: bolder;
+}
+.container .cont .package .pro .cost{
+    background-color: #f1f1f1;
+}
+.container .cont .package .pro .cost h3{
+    background-color: #f1f1f1;
+    text-align: center;
+    color: black;
+    text-align: center;
+    border-top: 1px solid #afa6a6;
+}
+.container .cont .package .pro .cost p{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 0px;
+}
+.container .cont .package .pro .signup{
+    background-color: #f1f1f1;
+    padding: 10px 10px 10px 300px;
+    border-top: 1px solid #afa6a6;
+}
+.container .cont .package .pro .signup button{
+    background-color: #f44336;
+    font-size: 25px;
+    outline: none;
+    font-weight: bolder;
+    color:white;
+    border: none;
+    padding: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.container .cont .contact{
+    margin-left: 300px;
+}
+.container .cont .contact p{
+    margin-left: 0;
+}
+.container .cont .contact input{
+    width: 500px;
+    height: 50px;
+}
+.container .cont .contact  #ms{
+    width: 500px;
+    height: 150px;
+}
+.container .cont  #send{
+    background-color: #f44336;
+    padding: 10px;
+    margin-left: 500px;
+    margin-top: 15px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    width: 90px;
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+}
